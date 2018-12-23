@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Мои путешествия</name>
+    <description/>
+    <Style id="icon-1899-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-880E4F-nodesc-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-nodesc-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-A52714-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d1427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-A52714-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d1427a5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-A52714-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A52714-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A52714-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Путешествия в Париже</name>
+      <Placemark>
+        <name>Площадь Лувр</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.34084259999997,48.8598784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Demeure d'Antoine de Lavoisier]]></name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.34517759999994,48.860813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Музей Лувр</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3376267,48.8607565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Статуя Людовика XIV</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.34118530000001,48.8657548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Путешествия Англия</name>
+      <Placemark>
+        <name>Биг-Бен</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.124625400000014,51.5007292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Central Hall Westminster</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.12964809999994,51.5000559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Музей гвардии</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.136169500000051,51.5001556,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Полигон Англия</name>
+        <styleUrl>#poly-A52714-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -0.1174693,51.5016308,0
+                -0.1166968,51.5002483,0
+                -0.1164608,51.5002216,0
+                -0.115817,51.5005422,0
+                -0.1174693,51.5016308,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Маршрут Эйфелева башня – Старбакс, Улица Сен-Доминик, Париж, Франция</name>
+      <Placemark>
+        <name>Маршрут Эйфелева башня – Старбакс, Улица Сен-Доминик, Париж, Франция</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            2.29542,48.85796,0
+            2.29581,48.85822,0
+            2.2959,48.85829,0
+            2.29608,48.85841,0
+            2.29638,48.85861,0
+            2.29685,48.85892,0
+            2.29702,48.85904,0
+            2.29747,48.85936,0
+            2.29769,48.85923,0
+            2.29857,48.85864,0
+            2.29865,48.8586,0
+            2.29869,48.85858,0
+            2.29888,48.85846,0
+            2.29904,48.85836,0
+            2.29928,48.85821,0
+            2.29949,48.85808,0
+            2.29964,48.85798,0
+            2.30006,48.85769,0
+            2.30024,48.85757,0
+            2.30028,48.85764,0
+            2.30029,48.85767,0
+            2.30031,48.8577,0
+            2.30034,48.85772,0
+            2.30042,48.85776,0
+            2.30145,48.85813,0
+            2.30192,48.85831,0
+            2.30203,48.85835,0
+            2.30225,48.85842,0
+            2.30241,48.85849,0
+            2.30252,48.85853,0
+            2.30286,48.85864,0
+            2.30311,48.85871,0
+            2.30325,48.85875,0
+            2.30337,48.85878,0
+            2.30353,48.85883,0
+            2.30367,48.85888,0
+            2.30425,48.85905,0
+            2.30508,48.85922,0
+            2.30515,48.85924,0
+            2.3061,48.85944,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Эйфелева башня</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.2954187,48.8579619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Старбакс, Улица Сен-Доминик, Париж, Франция</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            2.3060989,48.8594389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
